@@ -10,13 +10,13 @@
 
 先举个两个例子：
 
-`var a = 10;`
+``` var a = 10;
 
-`var b = a;`
+var b = a;
 
-` a = 20; `
+a = 20;
 
-`console.log(b)   //30`
+console.log(b)   //30 ```
 
 
 `var a = [1,2]`
@@ -33,7 +33,7 @@
 >有没有觉得很神奇，number,string都是基本数据类型，而基本数据类型存放在栈区，是直接按值存放的，可以直接访问；对象和数组是存放在堆中的，通过引用来赋值，实际是一个存放在栈内存的指针，这个指针指向堆内存中的地址。
 现在我们来看一下ECMAScript中的数据类型。主要分为两大类：
 
-####基本数据类型 （`undefined，boolean，string，number，null`）
+#### 基本数据类型 （`undefined，boolean，string，number，null`）
 
 `var a = 3;`
 
