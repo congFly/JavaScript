@@ -10,13 +10,13 @@
 
 先举个两个例子：
 
-``` var a = 10;
+`var a = 10;`
 
-var b = a;
+`var b = a;`
 
-a = 20;
+` a = 20; `
 
-console.log(b)   //30 ```
+`console.log(b)   //30`
 
 
 `var a = [1,2]`
