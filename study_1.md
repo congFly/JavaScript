@@ -16,7 +16,6 @@ var b = a;
 a = 20;
 console.log(b)   //30
 
-
 var a = [1,2]
 var b = a;
 a[0] = 3;
@@ -51,7 +50,7 @@ console.log(a == b);   //true
 引用数据类型在内存中是这样存的，每个空间大小不一样，要根据情况进行特定分配，如下所示：
 
 ```
-var  personA = {name:'fcc'}
+var personA = {name:'fcc'}
 var personB = {name:'fcc1'}
 var personC = {name:'fcc2'}
 ```
@@ -61,8 +60,8 @@ var personC = {name:'fcc2'}
 举个例子：
 
 ```
-var a =[1,2,3,4];
-var b =[1,2,3,4];
+var a = [1,2,3,4];
+var b = [1,2,3,4];
 console.log(a === b)  //false
 ```
 
