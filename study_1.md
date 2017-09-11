@@ -10,23 +10,21 @@
 
 先举个两个例子：
 
-`var a = 10;`
-
-`var b = a;`
-
-` a = 20; `
-
-`console.log(b)   //30`
+```
+var a = 10;
+var b = a;
+a = 20;
+console.log(b)   //30
 
 
-`var a = [1,2]`
+var a = [1,2]
 
-`var b = a;`
+var b = a;
 
-`a[0] = 3;`
+a[0] = 3;
 
-`console.log(b)  //[3,2]`
-
+console.log(b)  //[3,2]
+```
 
 **************
 
