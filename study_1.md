@@ -14,7 +14,7 @@
 var a = 10;
 var b = a;
 a = 20;
-console.log(b)   //30
+console.log(b)   //10
 
 var a = [1,2]
 var b = a;
