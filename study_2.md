@@ -115,8 +115,10 @@ ES6中的块级作用域，在{}、for、if中都可以声明。
 
 __ES6有几个特点：__
 >  1、let是块级变量，不存在于window下，window.变量名是找不到的
-2、 在没有声明的情况下使用会抛出异常
-3、也不允许重复声明变量，即变量名唯一
+>
+>  2、 在没有声明的情况下使用会抛出异常
+>
+>  3、也不允许重复声明变量，即变量名唯一
 
 ```
 let a = 1;
@@ -132,7 +134,7 @@ function fun1(){
         let b =2;
     }
 
-    fun1();  //   报错    fun1 is not defined
+    fun1();  //   报错    b is not defined
 
 
 
@@ -145,7 +147,7 @@ function fun2() {
      console.log(c);
 }
 
-fun2();   //   报错    Identifier 'b' has already been declared
+fun2();   //   报错    Identifier 'c' has already been declared
 ```
 
 let在for循环中的使用：
