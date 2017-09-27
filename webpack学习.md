@@ -1,6 +1,8 @@
 # webpack学习之路
 > webpack 是一个模块打包工具，输入为包含依赖关系的模块集，输出为打包合并的前端静态资源。
+> 
 > webpack的loader:处理各种需要被处理的静态文件
+>
 > webpack支持CommonJs、AMD规范
 
 __模块系统的几大类型：__
@@ -103,8 +105,9 @@ __webpack实时编译：__
 	webpack --watch
 ```
 默认配置文件webpack.config.js改成自定义文件
-
+```
 	webpack --config customconfig.js
+```
 
 __webpack用法：__
 一个完整的文件：webpack.config.js
